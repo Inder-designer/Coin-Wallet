@@ -1,0 +1,371 @@
+
+@media screen and (min-width: 992px) {
+    .navbar .nav_btn{
+        display: none;
+    }
+    .nav-menu{
+        display: block !important;
+    }
+}
+@media screen and (min-width: 1700px) {
+    .hero-card-wrapper.is-chainlink {
+        /* right: 400px;
+        bottom: 230px; */
+        right: 260px;
+        bottom: 40px;
+    }
+    .hero-card-wrapper.is-ethereum {
+        /* right: 140px;
+        bottom: 464px; */
+        right: 0;
+        bottom: 220px;
+    }
+    .hero-card-wrapper.is-bitcoin {
+        /* right: 570px;
+        bottom: 570px; */
+        right: 370px;
+        bottom: 400px;
+    }
+}
+@media screen and (max-width: 1599.98px) {
+    
+}
+@media screen and (max-width: 1399px) {
+    
+    .hero-card-wrapper.is-chainlink {
+        right: 230px;
+        bottom: 40px;  
+    }
+    .hero-card-wrapper.is-ethereum {
+        right: 0;
+        bottom: 220px;
+    }
+    .hero-card-wrapper.is-bitcoin {
+        right: 370px;
+        bottom: 370px;
+    }
+    .h1 {
+        font-size: 38px;
+        line-height: 54px;
+        max-width: 580px;
+    }
+    .p {
+        max-width: 490px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .swapSteps .box .boxInner .title {
+        font-size: 32px;
+        line-height: 44px;
+    }
+    .swapSteps .box .boxInner{
+        padding: 50px;
+    }
+    .swapSteps .box .boxInner .title span {
+        font-weight: 900;
+        font-size: 100px;
+        line-height: 110px;
+    }    
+    .swapInstant::before {
+        height: 570px;
+    }
+    .sec_title {
+        font-size: 50px;
+    }
+    .h2 {
+        font-size: 54px;
+        line-height: 70px;
+    }    
+    .bgImages img:nth-child(1) {
+        top: 224px !important;
+        width: 560px !important;
+    }
+    .swapInstant .bgImages img:nth-child(2) {
+        top: 880px;
+        width: 560px;
+        right: 0;
+    }
+    .swapInstant .bgImages img:nth-child(3) {
+        width: 600px;
+        bottom: 400px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .banner {
+        padding: 220px 0 100px;
+    }
+    .se2 {
+        padding: 50px 0 80px;
+    }
+    .sec2_content {
+        padding: 130px 0 130px;
+    }
+    .privacy {
+        padding: 80px 0 120px;
+    }
+    .swapInstant {
+        padding: 62px 0 100px;
+    }
+    .hero-card-wrapper.is-bitcoin {
+        right: 250px;
+        bottom: 390px;
+    }
+    .swapSteps .box .boxInner {
+        padding: 34px;
+    }
+    .swapSteps .box .boxInner {
+        padding: 34px;
+    }
+    .swapInstant::before {
+        height: 520px;
+    }
+    .sec_title {
+        font-size: 42px;
+        line-height: 54px;
+    }
+    .bottomWrap img{
+        width: 250px;
+    }
+    .h2 {
+        font-size: 46px;
+        line-height: 58px;
+    }
+    .privacy .wrap .box1{
+        min-height: 100%;
+    }
+    .privacy .wrap .box1 ul li {
+        margin-bottom: 20px;
+    }
+    .sec2_end .value {
+        font-size: 52px;
+        line-height: 64px;
+    }
+    .bgImages img:nth-child(1) {
+        top: 224px !important;
+        width: 480px !important;
+    }
+    .swapInstant .bgImages img:nth-child(2) {
+        top: 760px;
+        width: 500px;
+        right: 0;
+    }
+    .swapInstant .bgImages img:nth-child(3) {
+        width: 510px;
+    }
+    .footer .appLinks img{
+        width: 170px;
+    }
+}
+@media screen and (max-width: 991.98px) {
+    .banner {
+        padding: 160px 0 100px;
+    }
+    .swapSteps .row-1:not(:first-child),.swapSteps .row-2{
+        margin-top: 40px;
+    }
+    .swapSteps .box .boxInner {
+        width: calc(70% - 0px);
+    }
+    .sec_title {
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .sec_p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .bottomWrap img {
+        width: 200px;
+    }
+    .h2 {
+        font-size: 34px;
+        line-height: 46px;
+    }
+    /* .walletLinks{
+        padding: 40px 0;
+        background: linear-gradient(135deg, #B04AEE 0%, #8239FA 100%);
+    } */
+    .walletLinks::before{
+        height: 88%;
+    }
+    .se2 .box .value {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .sec2_end .value {
+        font-size: 42px;
+        line-height: 58px;
+    }
+    .swapInstant .bgImages img:nth-child(2) {
+        top: 850px;
+        width: 510px;
+    }
+    .footer .appLinks img{
+        width: 125px;
+    }
+    .footer h4 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 10px;
+    }
+    .footer p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .header .navbar-brand img{
+        height: 32px;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    .h1 {
+        font-size: 32px;
+        line-height: 46px;
+        max-width: 490px;
+    }
+    .swapSteps .box .boxInner {
+        width: 100%;
+    }
+    .swapSteps .box .boxInner .title span {
+        font-size: 70px;
+        line-height: 80px;
+        margin-right: 20px;
+    }
+    .swapSteps .box .boxInner .title {
+        font-size: 28px;
+        line-height: 38px;
+        font-weight: 600;
+    }
+    .swapInstant::before {
+        height: 690px;
+    }
+    .walletLinks::before {
+        height: 75%;
+    }    
+    .se2 .box .sec_text {
+        font-size: 16px;
+    }    
+    .se2 .box .value {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .sec2_end .value {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .sec2_end span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .privacy .wrap .box p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .privacy .wrap .box {
+        padding: 30px 30px;
+        min-height: 302px;
+    }
+    .privacy .wrap .box img{
+        width: 60px;
+        margin-bottom: 20px;
+    }
+    .swapInstant .bgImages img:nth-child(2) {
+        top: 1140px;
+        width: 510px;
+    }
+    .footer {
+        margin-top: 70px;
+    }     
+    .footer h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .footer p {
+        font-size: 16px;
+        line-height: 26px;
+    }  
+    .header .cstmBtn {
+        font-size: 12px;
+        padding: 2px 12px;
+    }
+}
+@media screen and (max-width: 575.98px) {
+    .banner{
+        background: none;
+        padding: 130px 0 60px;
+    }
+    .h1 {
+        font-size: 25px;
+        line-height: 34px;
+        max-width: 380px;
+    }
+    .p {
+        max-width: 430px;
+        margin-bottom: 20px;
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .subheader {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .cstmBtn{
+        padding: 4px 18px;
+        font-size: 15px;
+    }
+    .appLinks img{
+        width: 120px;
+    }
+    .swapSteps .box .boxInner {
+        padding: 24px;
+        border-radius: 12px;
+    }
+    .swapSteps .box .boxInner .title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .swapSteps .box .boxInner .title span {
+        font-size: 40px;
+        line-height: 50px;
+        margin-right: 16px;
+    }
+    .swapSteps .box .boxInner .info {
+        font-size: 14px;
+        line-height: 24px;
+    }  
+    .sec_title {
+        font-size: 30px;
+        line-height: 38px;
+        margin-bottom: 14px;
+    }
+    .sec_p {
+        font-size: 16px;
+        line-height: 23px;
+    }  
+    .bottomWrap img {
+        width: 160px;
+    }
+    .bottomWrap {
+        padding: 0 0 60px;
+    }
+    .bottomWrap:before{
+        height: 178px;
+    }
+    .h2 {
+        font-size: 28px;
+        line-height: 40px;
+        margin: 0 auto 20px;
+    }
+    .privacy .wrap .box {
+        padding: 30px 30px;
+        min-height: 100%;
+    }
+    .swapInstant .bgImages img:nth-child(3) {
+        width: 390px;
+        bottom: 282px;
+    }
+    .swapInstant .bgImages img:nth-child(2) {
+        top: 1140px;
+        width: 450px;
+    }
+}

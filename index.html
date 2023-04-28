@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="manifest" href="./assets/site.webmanifest">
+    <link rel="mask-icon" href="./assets/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@400;500&family=Poppins:wght@400;500;600;700&family=Spline+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/darkmode.css">
+    <title>MyCoin Wallet</title> 
+</head>
+<body>
+    <header class="header position-fixed top w-100" id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg py-3">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/logo2.png" alt="" class="" height="46px">
+                </a>
+                <div class="nav-menu mx-auto">
+                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span>What to do</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span>Features</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span>About Us</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="cstmBtn  ms-auto">Contact Us</a>
+                <button class="nav_btn ms-3">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Side Nav -->
+    
+    <div class="side-menu">
+        <div class="backdrop"></div>
+        <div class="body">
+            <div class="side-logo">
+                <h1><img src="./assets/logo.png" alt="" class="" height="46px"></h1>
+                <button class="close_btn">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </div>
+            <ul class="side-nav">
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+                <li class="nav-item"><a href="#roadmap">Roadmap</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Side Nav -->
+    <!-- Banner Start -->
+    <div class="banner">
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-12">
+                    <p class="subheader" data-aos="fade-right" data-aos-duration="800">Introducing crypto’s most compatible wallet.</p>
+                    <h1 class="h1" data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">The most trusted and secured decentralized wallet</h1>
+                    <p class="p" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">A wallet created for the next 100M crypto users with user privacy as a cornerstone. Provides a full range of multi-chain & cross-chain solutions. Supports multiple coins.</p>
+                    <p class="p p2" data-aos="fade-right" data-aos-duration="800" data-aos-delay="500">A game-changing solution.</p>
+                    <a href="#" class="cstmBtn" data-aos="fade-right" data-aos-duration="800" data-aos-delay="600">Create Wallet</a>
+                    <div class="appLinks" data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">
+                        <a href="#" class="me-3 d-inline-block"><img src="./assets/app.png.png" alt="" width="146px"></a>
+                        <a href="#" class=" d-inline-block"><img src="./assets/play.png.png" alt="" width="146px"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-lg-block">
+                <div class="hero-card-wrapper is-bitcoin">
+                    <a href="#" class="hero-card">
+                        <img src="./assets/Icon-Bitcoin.svg.png" alt="" class="hero-card-icon">
+                        <div class="hero-card-info">
+                            <div class="hero-card-name">Bitcoin <span class="hero-card-short">BTC</span></div>
+                        </div>
+                    </a>
+                    <img src="./assets/Graphic-Hero-Stem.svg.png" alt="" class="hero-card-stem" height="60px">
+                </div>
+                <div class="hero-card-wrapper is-ethereum">
+                    <a href="#" class="hero-card">
+                        <img src="./assets/Icon-Ethereum.svg.png" alt="" class="hero-card-icon">
+                        <div class="hero-card-info">
+                            <div class="hero-card-name">Ethereum <span class="hero-card-short">ETH</span></div>
+                        </div>
+                    </a>
+                    <img src="./assets/Graphic-Hero-Stem.svg.png" alt="" class="hero-card-stem" height="60px">
+                </div>
+                <div class="hero-card-wrapper is-chainlink">
+                    <a href="#" class="hero-card">
+                        <img src="./assets/Icon-Uniswap.svg.png" alt="" class="hero-card-icon">
+                        <div class="hero-card-info">
+                            <div class="hero-card-name">Uniswap <span class="hero-card-short">UNI</span></div>
+                        </div>
+                    </a>
+                    <img src="./assets/Graphic-Hero-Stem.svg.png" alt="" class="hero-card-stem" height="60px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+
+    <!-- Sec2 Start -->
+    <section class="se2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-12 col-lg-10 col-xl-8">
+                    <div class="row text-center gy-4 gy-md-0 ">
+                        <div class="col-sm-6">
+                            <div class="box" data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">
+                                <p class="sec_text">All-time trade volume</p>
+                                <p class="value">$4,200,368,117</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="box box2" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+                                <p class="sec_text">Total Trades</p>
+                                <p class="value">10,434</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sec2_content">
+                <h2 class="h2" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="200">Charts, swaps, stats in one mobile wallet.</h2>
+                <p class="p" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="300">We combined the best features of traditional crypto trading and real-time portfolio monitoring with the independence and security of Mycoins.</p>
+            </div>
+            <div class="sec2_end">
+                <div class="row text-center gy-4 gy-md-0 justify-content-center">
+                    <div class="col-6 col-sm-4 col-md-3" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
+                        <p class="value">$9M+</p>
+                        <span>Transactions</span>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300">
+                        <p class="value">$25M+</p>
+                        <span>Total volume</span>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
+                        <p class="value">2K+</p>
+                        <span>Total accounts</span>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-3" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="500">
+                        <p class="value">296K+</p>
+                        <span>Total swaps</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sec2 End -->
+
+    <!-- Privacy start -->
+    <section class="privacy">
+        <div class="container">
+            <h2 class="sec_title" data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">
+                We Care Your Privacy
+            </h2>
+            <p class="sec_p" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
+                You Deserve Easy Access To Your Assets
+            </p>
+            <div class="wrap mt-4">
+                <div class="row gy-4">
+                    <div class="col-xl-8">
+                        <div class="box box1" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <h4>Start To Work</h4>
+                                    <p>No registration, quickly create a wallet and store your assets.</p>
+                                </li>
+                                <li>
+                                    <h4>Multiple Wallets</h4>
+                                    <p>Multiple Wallets</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-4" data-aos="fade-left" data-aos-duration="800" data-aos-delay="400">
+                        <div class="box box2">
+                            <img src="./assets/settings (4) 1.png" alt="" width="80px">
+                            <h4>Multiple Wallets</h4>
+                            <p>Clean and visually appealing interface help to operate this app easily</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-4" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="300">
+                        <div class="box ">
+                            <img src="./assets/earth-globe 1.png" alt="" width="80px">
+                            <h4>Global Availability</h4>
+                            <p>Everyone deserves to stay safe with their asset and enjoy the freedom of decentralization</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-4" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="400">
+                        <div class="box ">
+                            <img src="./assets/rocket 1.png" alt="" width="80px">
+                            <h4>Quick to Launch</h4>
+                            <p>It takes very few seconds to configure and start using it</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-4" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="500">
+                        <div class="box ">
+                            <img src="./assets/hierarchical-structure 1.png" alt="" width="80px">
+                            <h4>Well Structured Code</h4>
+                            <p>Apps are developed with very good code quality and modular approach.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Privacy End-->
+
+    <!-- Swap Instant Start -->
+    <section class="swapInstant">
+        <div class="container">
+            <div class="wrap">
+                <div class="row">
+                    <div class="col-md-6 pe-md-4 pe-lg-5">
+                        <h2 class="sec_title" data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">
+                            Swap Instant
+                        </h2>
+                        <p class="sec_p" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
+                            No more hassles, it takes very few clicks to perform a quick swap
+                        </p>
+                    </div>
+                    <div class="col-md-6 mt-4 mt-md-0 text-center text-md-end" data-aos="fade-left" data-aos-duration="800" data-aos-delay="500">
+                        <img src="./assets/swap.png" alt="" class="img-fluid" width="612px">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Swap Steps -->
+            <div class="swapSteps">
+                <div class="box row-1">
+                    <div class="boxInner" data-aos="zoom-in-right" data-aos-duration="800" data-aos-delay="200">
+                        <p class="title mb-3"><span>1</span> Private & Secure</p>
+                        <p class="info">Only you can access your wallet. We don’t collect any of your personal data</p>
+                    </div>
+                </div>
+                <div class="box row-2">
+                    <div class="boxInner" data-aos="zoom-in-left" data-aos-duration="800" data-aos-delay="400">
+                        <p class="title"><span>2</span> Market Updates</p>
+                        <p class="info">Get and explore latest crypto market updates without leaving your wallet</p>
+                    </div>
+                </div>
+                <div class="box row-1">
+                    <div class="boxInner" data-aos="zoom-in-right" data-aos-duration="800" data-aos-delay="600">
+                        <p class="title"><span>3</span> Get Latest News Updates on Crypto Market</p>
+                        <p class="info">Stay connected to the Crypto world and get the latest updates on the global market</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Digital Assets -->
+            <div class="digitalAssets">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mt-4 mt-md-0 text-center text-md-end order-2 order-md-1 ">
+                        <img src="./assets/Flying iPhone 12 Mockup Left View.png" alt="" class="img-fluid" width="612px" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
+                    </div>
+                    <div class="col-md-6 pe-md-4 pe-lg-5 text-md-end  order-1 order-md-2">
+                        <h2 class="sec_title" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+                            Your digital assets in one place
+                        </h2>
+                        <p class="sec_p" data-aos="fade-left" data-aos-duration="800" data-aos-delay="400">
+                            Track charts and prices within the app. Store and manage your collectibles, Art & NFT
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottomWrap">
+            <div class="container text-end">
+                <img src="./assets/wallet_3d.png" alt="" class="img-fluid" width="349px" data-aos="fade-left" data-aos-duration="800" data-aos-delay="400">
+            </div>
+            <div class="barOuter">
+                <div class="bar d-flex align-items-center">
+                    <div class="d-flex align-items-center">
+                        <span></span>
+                        <p>COMMUNITY-DRIVEN</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span></span>
+                        <p>SECURE</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span></span>
+                        <p>GREEN</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span></span>
+                        <p>FAST</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span></span>
+                        <p>DECENTRALIZED</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span></span>
+                        <p>OPEN-SOURCE</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span></span>
+                        <p>COMMUNITY-DRIVEN</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span></span>
+                        <p>SECURE</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span></span>
+                        <p>GREEN</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span></span>
+                        <p>FAST</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span></span>
+                        <p>DECENTRALIZED</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span></span>
+                        <p>OPEN-SOURCE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bgImages">
+            <img src="./assets/swapBg1.png" alt="" class="img-fluid d-none d-md-block">
+            <img src="./assets/swapBg2.png" alt="" class="img-fluid">
+            <img src="./assets/swapBg3.png" alt="" class="img-fluid">
+        </div>
+    </section>
+    <!-- Swap Instant End -->
+
+    <!-- wallet Links Start -->
+    <div class="walletLinks">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 pt-4 pt-lg-5">
+                    <h2 class="h2" data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">
+                        MyCoins wallet, super-charged for trading.
+                    </h2>
+                    <ul class="list-unstyled mb-0 d-flex flex-wrap" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
+                        <li class="d-flex align-items-center me-4 mb-2"><img src="./assets/check_icon.png" alt="" width="12px" style="margin-right: 10px;">Fast and secure</li>
+                        <li class="d-flex align-items-center me-4 mb-2"><img src="./assets/check_icon.png" alt="" width="12px" style="margin-right: 10px;">Low fees</li>
+                        <li class="d-flex align-items-center me-4 mb-2"><img src="./assets/check_icon.png" alt="" width="12px" style="margin-right: 10px;">Decentralized & encrypted</li>
+                    </ul>
+                    <div class="appLinks mt-4 mt-xl-5">
+                        <a href="#" class="me-3 d-inline-block"><img src="./assets/app.png.png" alt="" width="146px" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="600"></a>
+                        <a href="#" class=" d-inline-block"><img src="./assets/play.png.png" alt="" width="146px" data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="700"></a>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 mt-md-0 text-center text-md-end ">
+                    <img src="./assets/walletbg.png" alt="" class="img-fluid" width="612px" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- wallet Links End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- <div class="col-9">
+                    <div class="linksOuter">
+                            <ul class="links list-unstyled mb-0">
+                                <li><a href="#">Resources</a></li>
+                                <li><a href="#">Medium</a></li>
+                            </ul>
+                        
+                            <ul class="links list-unstyled mb-0">
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">iOS Wallet</a></li>
+                                <li><a href="#">Android Wallet</a></li>
+                                <li><a href="#">Explorer</a></li>
+                            </ul>
+                        
+                            <ul class="links list-unstyled mb-0">
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Wallet Integration</a></li>
+                            </ul>
+                    </div>
+                </div> -->
+                <div class="col-sm-6">
+                    <h4 data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">Get MyCoins Now</h4>
+                    <p data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">The most trusted & secure crypto wallet</p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="appLinks text-center text-sm-end">
+                        <a href="#" class="me-3 me-sm-0 me-md-3 mb-3 mb-md-0 d-inline-block" data-aos="flip-up" data-aos-duration="800" data-aos-delay="400"><img src="./assets/app.png.png" alt="" width="200px"></a>
+                        <a href="#" class=" d-inline-block" data-aos="flip-up" data-aos-duration="800" data-aos-delay="600"><img src="./assets/play.png.png" alt="" width="200px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js//jquery.js"></script>
+    <script src="./js/bootstrap.min.css"></script>
+    <script src="./js/custom.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
